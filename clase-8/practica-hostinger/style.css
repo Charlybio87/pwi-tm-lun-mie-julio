@@ -8,14 +8,14 @@
 }
 
 
-section{
+section{ /* Padre de las tres tarjetas*/
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 24px;
 }
 
-section .card-review{
+section .card-review{ /* establesco la forma y tipo de la tarjeta*//*Padre de los div dentro de la tarjeta*/
     background-color: #fafbff;
     padding: 32px;
     width: 360px;
@@ -26,29 +26,29 @@ section .card-review{
     justify-content: space-between;
 }
 
-
-section .card-review .card-review-content img{
+section .card-review .card-review-content img{ /*llamado solo a la imagen*/
     width: 220px;
 }
 
-section .card-review .card-review-content p{
+section .card-review .card-review-content p{/*llamado solo a los parrafos*/
     line-height: 24px;
     margin-top: 10px;
 }
 
-section .card-review .card-review-footer{
+section .card-review .card-review-footer{/* establece la forma de los iconos*//* padre de los icons*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 
-section .card-review .rating{
+section .card-review .rating{/* padre de las star*/
     display: flex;
+    flex-direction: row;
     gap: 8px;
     font-size: 18px;
 }
 
-section .card-review .card-review-footer .bi-star-fill{
+section .card-review .card-review-footer .bi-star-fill{/* establece el color de las estrellas*/
     color: #01B292;
 }
